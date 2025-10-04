@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "technology.roughness.whitenoise",
+    "module": "whitenoise-1.21.9-fabric",
+    "version": "2.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "whitenoise-1.21.9-fabric-2.0.1.jar",
+          "url": "whitenoise-1.21.9-fabric-2.0.1.jar",
+          "size": 562685,
+          "sha512": "5d8f78ccb618b0f814528d4e34a7eccd4cbda3cc662f927e534075da59007277743d0d9ec5295347278c877fdee25a02ff35d290642d38c955343afb54b20301",
+          "sha256": "c96193ca8cd80675ee2f442a0cc14addf06fd07b10452c011253c5fd0691f80c",
+          "sha1": "b96e6ceefafe50eb53ad0a104044623d3f9aa462",
+          "md5": "e76fb7f823169e217e625209ac7953a1"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.whitenoise",
+          "name": "whitenoise",
+          "version": "2.0.1"
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "name": "whitenoise-1.21.9-fabric",
+          "version": "2.0.1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.8.3"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.8.3"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.134.0+1.21.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "whitenoise-1.21.9-fabric-2.0.1.jar",
+          "url": "whitenoise-1.21.9-fabric-2.0.1.jar",
+          "size": 562685,
+          "sha512": "5d8f78ccb618b0f814528d4e34a7eccd4cbda3cc662f927e534075da59007277743d0d9ec5295347278c877fdee25a02ff35d290642d38c955343afb54b20301",
+          "sha256": "c96193ca8cd80675ee2f442a0cc14addf06fd07b10452c011253c5fd0691f80c",
+          "sha1": "b96e6ceefafe50eb53ad0a104044623d3f9aa462",
+          "md5": "e76fb7f823169e217e625209ac7953a1"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.whitenoise",
+          "name": "whitenoise",
+          "version": "2.0.1"
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "name": "whitenoise-1.21.9-fabric",
+          "version": "2.0.1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "whitenoise-1.21.9-fabric-2.0.1-sources.jar",
+          "url": "whitenoise-1.21.9-fabric-2.0.1-sources.jar",
+          "size": 92335,
+          "sha512": "75b1a9e9aff50d27e921ebba54d914cc82ae149cea363cc50bb05d33285f0e18eb1448f4d68e702e657b89f771d1f7f87e275bd553b5f817a8d6a27444220bba",
+          "sha256": "5dd183b197ef12c291c9bb20e164a6d0486a4a160aff4b7d4e720dc83dce5eb4",
+          "sha1": "35f388eff2a62683e80ea832fc8177db90d38ae4",
+          "md5": "c54e8254b444a1008fb9fdb820eb66df"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.whitenoise",
+          "name": "whitenoise",
+          "version": "2.0.1"
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "name": "whitenoise-1.21.9-fabric",
+          "version": "2.0.1"
+        }
+      ]
+    }
+  ]
+}
