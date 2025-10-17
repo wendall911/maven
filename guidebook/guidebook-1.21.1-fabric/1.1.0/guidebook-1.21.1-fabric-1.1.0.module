@@ -1,0 +1,195 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "guidebook",
+    "module": "guidebook-1.21.1-fabric",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "13.0.8"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.140"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "guidebook-1.21.1-fabric-1.1.0.jar",
+          "url": "guidebook-1.21.1-fabric-1.1.0.jar",
+          "size": 652733,
+          "sha512": "d5d884df84e7fa949ca98b52af1b5a05f1afb55ce042a0d9641d67cf40a5ad06254e77bbf2a6cf3c7c8e4bb848c2b86cfe34b8d0b932552791a92c454ec95be8",
+          "sha256": "b0c0dfd849dfe3b95cf1be31e8ffde7e60eab462f8673ed04b1abf24fece882f",
+          "sha1": "65860d77efc2d7294cd1361500a18e77a7c104c7",
+          "md5": "cfb9b7fc036c11497b8c365d77ae45ee"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "guidebook",
+          "name": "guidebook-1.21.1-fabric",
+          "version": "1.1.0"
+        },
+        {
+          "group": "guidebook",
+          "name": "guidebook",
+          "version": "1.1.0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "13.0.8"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.140"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.6+1.21.1"
+          }
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "module": "whitenoise-1.21.1-fabric",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "me.shedaniel",
+          "module": "RoughlyEnoughItems-fabric",
+          "version": {
+            "requires": "16.0.799"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "guidebook-1.21.1-fabric-1.1.0.jar",
+          "url": "guidebook-1.21.1-fabric-1.1.0.jar",
+          "size": 652733,
+          "sha512": "d5d884df84e7fa949ca98b52af1b5a05f1afb55ce042a0d9641d67cf40a5ad06254e77bbf2a6cf3c7c8e4bb848c2b86cfe34b8d0b932552791a92c454ec95be8",
+          "sha256": "b0c0dfd849dfe3b95cf1be31e8ffde7e60eab462f8673ed04b1abf24fece882f",
+          "sha1": "65860d77efc2d7294cd1361500a18e77a7c104c7",
+          "md5": "cfb9b7fc036c11497b8c365d77ae45ee"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "guidebook",
+          "name": "guidebook-1.21.1-fabric",
+          "version": "1.1.0"
+        },
+        {
+          "group": "guidebook",
+          "name": "guidebook",
+          "version": "1.1.0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "guidebook-1.21.1-fabric-1.1.0-sources.jar",
+          "url": "guidebook-1.21.1-fabric-1.1.0-sources.jar",
+          "size": 442804,
+          "sha512": "73c7116ee89fcb22f56d71675f24cfcebb7e384120441e68baeba9829a53e0dd97eec4a69a4f5b7f30b531b704e8444464144fc4762af925ad02a223d490b6a1",
+          "sha256": "47c75e678b00ab2a018cb80160f6abd5e8b3ffda694c1a82ce8a4cdae671cf84",
+          "sha1": "86a6d1fc825fb42149da02522ec99edf026e4881",
+          "md5": "571a424a4b8c9689fe9ef2e90957a6c9"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "guidebook",
+          "name": "guidebook-1.21.1-fabric",
+          "version": "1.1.0"
+        },
+        {
+          "group": "guidebook",
+          "name": "guidebook",
+          "version": "1.1.0"
+        }
+      ]
+    }
+  ]
+}
