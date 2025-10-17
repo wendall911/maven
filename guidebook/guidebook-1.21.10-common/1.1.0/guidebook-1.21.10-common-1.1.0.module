@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "guidebook",
+    "module": "guidebook-1.21.10-common",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "guidebook-1.21.10-common-1.1.0.jar",
+          "url": "guidebook-1.21.10-common-1.1.0.jar",
+          "size": 624996,
+          "sha512": "2b20780c7c80980710163d5d4c852a9401a2595e417b3ae397aaae2ce0409a73ce45369bd9159e041326d1642964d253ca14978febe8c171226443e7c4d681ee",
+          "sha256": "884e99b8ec30c24aaf1160b18c9a540218484195021cc5d7a406dcce12b3f11c",
+          "sha1": "f58082bb6e6fa3041819a526e394265ba9a92bf6",
+          "md5": "5c0fedfd2aa8119a1164fa0567d77ce7"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "guidebook",
+          "name": "guidebook-1.21.10-common",
+          "version": "1.1.0"
+        },
+        {
+          "group": "guidebook",
+          "name": "guidebook",
+          "version": "1.1.0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "module": "whitenoise-1.21.10-common",
+          "version": {
+            "requires": "2.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "guidebook-1.21.10-common-1.1.0.jar",
+          "url": "guidebook-1.21.10-common-1.1.0.jar",
+          "size": 624996,
+          "sha512": "2b20780c7c80980710163d5d4c852a9401a2595e417b3ae397aaae2ce0409a73ce45369bd9159e041326d1642964d253ca14978febe8c171226443e7c4d681ee",
+          "sha256": "884e99b8ec30c24aaf1160b18c9a540218484195021cc5d7a406dcce12b3f11c",
+          "sha1": "f58082bb6e6fa3041819a526e394265ba9a92bf6",
+          "md5": "5c0fedfd2aa8119a1164fa0567d77ce7"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "guidebook",
+          "name": "guidebook-1.21.10-common",
+          "version": "1.1.0"
+        },
+        {
+          "group": "guidebook",
+          "name": "guidebook",
+          "version": "1.1.0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "guidebook-1.21.10-common-1.1.0-sources.jar",
+          "url": "guidebook-1.21.10-common-1.1.0-sources.jar",
+          "size": 422294,
+          "sha512": "dd595570751aff22b041efbab1b46fd6c4e32da8507f5694423c99ca19eb500cbc9718e2513e0d534b62a73c10cc45bbf0c688f99cdcef3b63986052397bd111",
+          "sha256": "2081aef5f6b34140b9604af4fb7e4da479df8691d78dc25be62d0a0542bdb671",
+          "sha1": "4059c43cdfadae051eb8434deeb2a2ba081ac34e",
+          "md5": "ef0d9e4ed2064cfda52980a076fb3b8a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "guidebook",
+          "name": "guidebook-1.21.10-common",
+          "version": "1.1.0"
+        },
+        {
+          "group": "guidebook",
+          "name": "guidebook",
+          "version": "1.1.0"
+        }
+      ]
+    }
+  ]
+}
