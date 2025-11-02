@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "technology.roughness.whitenoise",
+    "module": "whitenoise-1.21.10-common",
+    "version": "2.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "whitenoise-1.21.10-common-2.0.7.jar",
+          "url": "whitenoise-1.21.10-common-2.0.7.jar",
+          "size": 161548,
+          "sha512": "e8a87ad9cab5b8fab245911193738abe1c2e30d3fa06972c38d81b5b1bacfa36ac6614d459ff38ada55bfce835d2cc823a4c64797c6af21b92cfda3ae567e993",
+          "sha256": "eb846bd49d057bfbb896e5b6c486f7c554d9c6f9604794175a8a4228d4a9ab16",
+          "sha1": "332686413f3b7706b92b0e2272d766de0ead2ab5",
+          "md5": "8289c5e99d3c16b48df7c9e8a1e12d7c"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.whitenoise",
+          "name": "whitenoise-1.21.10-common",
+          "version": "2.0.7"
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "name": "whitenoise",
+          "version": "2.0.7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "whitenoise-1.21.10-common-2.0.7.jar",
+          "url": "whitenoise-1.21.10-common-2.0.7.jar",
+          "size": 161548,
+          "sha512": "e8a87ad9cab5b8fab245911193738abe1c2e30d3fa06972c38d81b5b1bacfa36ac6614d459ff38ada55bfce835d2cc823a4c64797c6af21b92cfda3ae567e993",
+          "sha256": "eb846bd49d057bfbb896e5b6c486f7c554d9c6f9604794175a8a4228d4a9ab16",
+          "sha1": "332686413f3b7706b92b0e2272d766de0ead2ab5",
+          "md5": "8289c5e99d3c16b48df7c9e8a1e12d7c"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.whitenoise",
+          "name": "whitenoise-1.21.10-common",
+          "version": "2.0.7"
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "name": "whitenoise",
+          "version": "2.0.7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "whitenoise-1.21.10-common-2.0.7-sources.jar",
+          "url": "whitenoise-1.21.10-common-2.0.7-sources.jar",
+          "size": 77054,
+          "sha512": "272833b4c30d2fe7a9eb4ddd7de464603eed5dd7039974ddc28bf6e29054c6cadf1652f6af1300df84ee9335455eee67fc94ba5ddc1ee83ecb5ffbfd2d1b711e",
+          "sha256": "9b0dbcef14db915e9c853388e1b0c85d9d41b44ea53e50ec04459dbd155ca172",
+          "sha1": "40eb46cb1b3b5408ab2ac3b6d839b86c73d0b477",
+          "md5": "3b44298078b287e80d663ddd47da5b9f"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.whitenoise",
+          "name": "whitenoise-1.21.10-common",
+          "version": "2.0.7"
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "name": "whitenoise",
+          "version": "2.0.7"
+        }
+      ]
+    }
+  ]
+}
