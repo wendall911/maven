@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.wendall911.climatesettings",
+    "module": "climatesettings-1.21.10-fabric",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "climatesettings-1.21.10-fabric-1.0.0.jar",
+          "url": "climatesettings-1.21.10-fabric-1.0.0.jar",
+          "size": 172121,
+          "sha512": "243ffa47ffd30cc54f579e255436b8155ba5c1aaa5d27c5b4687b32de0071ccba606e4694d02a48bcafb8b5fb266fd6db0ed005c49fa7834af53a949131643fa",
+          "sha256": "7b6021176b84db13e6766938a0b2ff1e061782f0dcbbd050bab1cc77d5c78b95",
+          "sha1": "9d93de40c76a3ae9510c9bc632c25f95706c8a51",
+          "md5": "a14afec91eb14ebd01fe47e9cd6b016f"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.wendall911.climatesettings",
+          "name": "climatesettings",
+          "version": "1.0.0"
+        },
+        {
+          "group": "com.github.wendall911.climatesettings",
+          "name": "climatesettings-1.21.10-fabric",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.3"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.138.3+1.21.10"
+          }
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "module": "whitenoise-1.21.10-fabric",
+          "version": {
+            "requires": "2.0.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "climatesettings-1.21.10-fabric-1.0.0.jar",
+          "url": "climatesettings-1.21.10-fabric-1.0.0.jar",
+          "size": 172121,
+          "sha512": "243ffa47ffd30cc54f579e255436b8155ba5c1aaa5d27c5b4687b32de0071ccba606e4694d02a48bcafb8b5fb266fd6db0ed005c49fa7834af53a949131643fa",
+          "sha256": "7b6021176b84db13e6766938a0b2ff1e061782f0dcbbd050bab1cc77d5c78b95",
+          "sha1": "9d93de40c76a3ae9510c9bc632c25f95706c8a51",
+          "md5": "a14afec91eb14ebd01fe47e9cd6b016f"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.wendall911.climatesettings",
+          "name": "climatesettings",
+          "version": "1.0.0"
+        },
+        {
+          "group": "com.github.wendall911.climatesettings",
+          "name": "climatesettings-1.21.10-fabric",
+          "version": "1.0.0"
+        }
+      ]
+    }
+  ]
+}
