@@ -12,24 +12,6 @@
   <version>2.11.0.1</version>
   <dependencies>
     <dependency>
-      <groupId>dev.architectury</groupId>
-      <artifactId>architectury-fabric</artifactId>
-      <version>13.0.8</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>me.shedaniel.cloth</groupId>
-      <artifactId>cloth-config-fabric</artifactId>
-      <version>15.0.140</version>
-      <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <groupId>net.fabricmc.fabric-api</groupId>
-          <artifactId>*</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
       <groupId>net.fabricmc</groupId>
       <artifactId>fabric-loader</artifactId>
       <version>0.17.2</version>
@@ -62,7 +44,7 @@
     <dependency>
       <groupId>com.github.wendall911.homeostaticseasons</groupId>
       <artifactId>homeostaticseasons-1.21.1-fabric</artifactId>
-      <version>1.0.0.1</version>
+      <version>1.0.0.2</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -82,6 +64,24 @@
       <artifactId>core</artifactId>
       <version>3.6.7</version>
       <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.architectury</groupId>
+      <artifactId>architectury-fabric</artifactId>
+      <version>13.0.8</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.shedaniel.cloth</groupId>
+      <artifactId>cloth-config-fabric</artifactId>
+      <version>15.0.140</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>net.fabricmc.fabric-api</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>me.shedaniel</groupId>
