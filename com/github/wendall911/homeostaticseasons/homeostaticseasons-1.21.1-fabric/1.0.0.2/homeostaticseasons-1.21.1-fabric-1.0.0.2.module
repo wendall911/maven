@@ -27,11 +27,11 @@
         {
           "name": "homeostaticseasons-1.21.1-fabric-1.0.0.2.jar",
           "url": "homeostaticseasons-1.21.1-fabric-1.0.0.2.jar",
-          "size": 762660,
-          "sha512": "bd3a4fd29178f1e6c4b70c66e9c3c5dd68d15f92c93d21d0c478eb9676978de61b3252ebccecb857b69906eea0a7fdfe78ea4ce2b915b053533330b824dc7d69",
-          "sha256": "95a6afbf5e05dcb41d4b92cd0304e50e232a2177055cd4e66f0ce7f33af7ce23",
-          "sha1": "eee6ef00f1740c81820b7b885333ac905a293618",
-          "md5": "3171d5a2c980b6fc8ce928fd5f4dbd4e"
+          "size": 762659,
+          "sha512": "248ac4dddf3aa7d3cce7486f93de2395c839e43ad1a14339e19fea19e8105e5e36bcc978b9ca9092362c636e26f3d13f77edb98c1f829178bf7d691497c4e606",
+          "sha256": "1b773b119757cbe5554a65853107a96fa66b54a4a5edd6adabeeedcaae3856a9",
+          "sha1": "7f055eefb2b591426d5ffcf76c1db9cb5dde155e",
+          "md5": "fbf47cbca66f825fe69bea389798df14"
         }
       ],
       "capabilities": [
@@ -91,66 +91,17 @@
           "version": {
             "requires": "3.6.7"
           }
-        },
-        {
-          "group": "net.jodah",
-          "module": "typetools",
-          "version": {
-            "requires": "0.6.3"
-          }
-        },
-        {
-          "group": "curse.maven",
-          "module": "glitchcore-955399",
-          "version": {
-            "requires": "5660741"
-          }
-        },
-        {
-          "group": "curse.maven",
-          "module": "terrablender-565956",
-          "version": {
-            "requires": "5864141"
-          }
-        },
-        {
-          "group": "curse.maven",
-          "module": "byg-1070751",
-          "version": {
-            "requires": "5894945"
-          }
-        },
-        {
-          "group": "curse.maven",
-          "module": "tyg-962544",
-          "version": {
-            "requires": "5691179"
-          }
-        },
-        {
-          "group": "curse.maven",
-          "module": "corgilib-693313",
-          "version": {
-            "requires": "5691272"
-          }
-        },
-        {
-          "group": "software.bernie.geckolib",
-          "module": "geckolib-fabric-1.21.1",
-          "version": {
-            "requires": "4.7"
-          }
         }
       ],
       "files": [
         {
           "name": "homeostaticseasons-1.21.1-fabric-1.0.0.2.jar",
           "url": "homeostaticseasons-1.21.1-fabric-1.0.0.2.jar",
-          "size": 762660,
-          "sha512": "bd3a4fd29178f1e6c4b70c66e9c3c5dd68d15f92c93d21d0c478eb9676978de61b3252ebccecb857b69906eea0a7fdfe78ea4ce2b915b053533330b824dc7d69",
-          "sha256": "95a6afbf5e05dcb41d4b92cd0304e50e232a2177055cd4e66f0ce7f33af7ce23",
-          "sha1": "eee6ef00f1740c81820b7b885333ac905a293618",
-          "md5": "3171d5a2c980b6fc8ce928fd5f4dbd4e"
+          "size": 762659,
+          "sha512": "248ac4dddf3aa7d3cce7486f93de2395c839e43ad1a14339e19fea19e8105e5e36bcc978b9ca9092362c636e26f3d13f77edb98c1f829178bf7d691497c4e606",
+          "sha256": "1b773b119757cbe5554a65853107a96fa66b54a4a5edd6adabeeedcaae3856a9",
+          "sha1": "7f055eefb2b591426d5ffcf76c1db9cb5dde155e",
+          "md5": "fbf47cbca66f825fe69bea389798df14"
         }
       ],
       "capabilities": [

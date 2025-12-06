@@ -41,47 +41,5 @@
       <version>3.6.7</version>
       <scope>runtime</scope>
     </dependency>
-    <dependency>
-      <groupId>net.jodah</groupId>
-      <artifactId>typetools</artifactId>
-      <version>0.6.3</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>curse.maven</groupId>
-      <artifactId>glitchcore-955399</artifactId>
-      <version>5660741</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>curse.maven</groupId>
-      <artifactId>terrablender-565956</artifactId>
-      <version>5864141</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>curse.maven</groupId>
-      <artifactId>byg-1070751</artifactId>
-      <version>5894945</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>curse.maven</groupId>
-      <artifactId>tyg-962544</artifactId>
-      <version>5691179</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>curse.maven</groupId>
-      <artifactId>corgilib-693313</artifactId>
-      <version>5691272</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>software.bernie.geckolib</groupId>
-      <artifactId>geckolib-fabric-1.21.1</artifactId>
-      <version>4.7</version>
-      <scope>runtime</scope>
-    </dependency>
   </dependencies>
 </project>

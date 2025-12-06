@@ -28,10 +28,10 @@
           "name": "homeostaticseasons-1.21.1-common-1.0.0.2.jar",
           "url": "homeostaticseasons-1.21.1-common-1.0.0.2.jar",
           "size": 132864,
-          "sha512": "545fc325a3c6c2c42790638dd71fe5bc5b7d8179f0e249448c9219a3653e768483ee08da26c71b2d02ef5e814012f84e4ac081e8cbbe30af1a71bbc152fdae1a",
-          "sha256": "604ab978956d858cd00f4650713bbe2f809bec373ac5039ee2a43bbcc2378c01",
-          "sha1": "8b972fd40eb82b5199e3e89515c7951c1e316e79",
-          "md5": "f968072d4cb1104714456d2843d76825"
+          "sha512": "184b5e82b5f060f21facb91b88c585797faebe572ee68560a633888f31ed7df2c9a716dcb5fe5f5bcc4e9dfc980d92bf42fb6dde0303c75964d2b55b8ec6edef",
+          "sha256": "1de0ccf9bfc6cbc3b2fa20c2c28ac5b14d665adcf68cc1ddf116b48f64179b1c",
+          "sha1": "20f9893bf51f4883b0e9d01052ca13e402127e17",
+          "md5": "34da8bfc69a8f7e8f9742f5efae242a6"
         }
       ],
       "capabilities": [
@@ -77,10 +77,10 @@
           "name": "homeostaticseasons-1.21.1-common-1.0.0.2.jar",
           "url": "homeostaticseasons-1.21.1-common-1.0.0.2.jar",
           "size": 132864,
-          "sha512": "545fc325a3c6c2c42790638dd71fe5bc5b7d8179f0e249448c9219a3653e768483ee08da26c71b2d02ef5e814012f84e4ac081e8cbbe30af1a71bbc152fdae1a",
-          "sha256": "604ab978956d858cd00f4650713bbe2f809bec373ac5039ee2a43bbcc2378c01",
-          "sha1": "8b972fd40eb82b5199e3e89515c7951c1e316e79",
-          "md5": "f968072d4cb1104714456d2843d76825"
+          "sha512": "184b5e82b5f060f21facb91b88c585797faebe572ee68560a633888f31ed7df2c9a716dcb5fe5f5bcc4e9dfc980d92bf42fb6dde0303c75964d2b55b8ec6edef",
+          "sha256": "1de0ccf9bfc6cbc3b2fa20c2c28ac5b14d665adcf68cc1ddf116b48f64179b1c",
+          "sha1": "20f9893bf51f4883b0e9d01052ca13e402127e17",
+          "md5": "34da8bfc69a8f7e8f9742f5efae242a6"
         }
       ],
       "capabilities": [
