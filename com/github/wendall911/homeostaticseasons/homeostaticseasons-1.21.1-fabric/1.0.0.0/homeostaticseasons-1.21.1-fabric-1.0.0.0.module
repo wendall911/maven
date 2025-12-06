@@ -1,0 +1,219 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.wendall911.homeostaticseasons",
+    "module": "homeostaticseasons-1.21.1-fabric",
+    "version": "1.0.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "13.0.8"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.140"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "homeostaticseasons-1.21.1-fabric-1.0.0.0.jar",
+          "url": "homeostaticseasons-1.21.1-fabric-1.0.0.0.jar",
+          "size": 762646,
+          "sha512": "4abba8c37f5f471f17d920cd0ec1cc8f544eae96359712003a5e05548a2c89fe716c76bf07aec0301b08f9ea351eeef409513283ae409f50a5faa34c45abb19d",
+          "sha256": "904edbeae96033264adc9495fb3578e769d269e546015d07dea0044955fe4c01",
+          "sha1": "6aaa5a4cddb8dcb3e65bca70c89adf58922de00a",
+          "md5": "491406596e1090b0e9ad383537e64067"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.wendall911.homeostaticseasons",
+          "name": "homeostaticseasons",
+          "version": "1.0.0.0"
+        },
+        {
+          "group": "com.github.wendall911.homeostaticseasons",
+          "name": "homeostaticseasons-1.21.1-fabric",
+          "version": "1.0.0.0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "13.0.8"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.140"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.6+1.21.1"
+          }
+        },
+        {
+          "group": "com.github.wendall911.climatesettings",
+          "module": "climatesettings-1.21.1-fabric",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "module": "whitenoise-1.21.1-fabric",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.6.7"
+          }
+        },
+        {
+          "group": "net.jodah",
+          "module": "typetools",
+          "version": {
+            "requires": "0.6.3"
+          }
+        },
+        {
+          "group": "com.github.wendall911.homeostatic",
+          "module": "homeostatic-1.21.1-fabric",
+          "version": {
+            "requires": "2.11.0.0"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "glitchcore-955399",
+          "version": {
+            "requires": "5660741"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "terrablender-565956",
+          "version": {
+            "requires": "5864141"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "byg-1070751",
+          "version": {
+            "requires": "5894945"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "tyg-962544",
+          "version": {
+            "requires": "5691179"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "corgilib-693313",
+          "version": {
+            "requires": "5691272"
+          }
+        },
+        {
+          "group": "software.bernie.geckolib",
+          "module": "geckolib-fabric-1.21.1",
+          "version": {
+            "requires": "4.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "homeostaticseasons-1.21.1-fabric-1.0.0.0.jar",
+          "url": "homeostaticseasons-1.21.1-fabric-1.0.0.0.jar",
+          "size": 762646,
+          "sha512": "4abba8c37f5f471f17d920cd0ec1cc8f544eae96359712003a5e05548a2c89fe716c76bf07aec0301b08f9ea351eeef409513283ae409f50a5faa34c45abb19d",
+          "sha256": "904edbeae96033264adc9495fb3578e769d269e546015d07dea0044955fe4c01",
+          "sha1": "6aaa5a4cddb8dcb3e65bca70c89adf58922de00a",
+          "md5": "491406596e1090b0e9ad383537e64067"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.wendall911.homeostaticseasons",
+          "name": "homeostaticseasons",
+          "version": "1.0.0.0"
+        },
+        {
+          "group": "com.github.wendall911.homeostaticseasons",
+          "name": "homeostaticseasons-1.21.1-fabric",
+          "version": "1.0.0.0"
+        }
+      ]
+    }
+  ]
+}
