@@ -23,37 +23,15 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
-      "dependencies": [
-        {
-          "group": "dev.architectury",
-          "module": "architectury-fabric",
-          "version": {
-            "requires": "13.0.8"
-          }
-        },
-        {
-          "group": "me.shedaniel.cloth",
-          "module": "cloth-config-fabric",
-          "version": {
-            "requires": "15.0.140"
-          },
-          "excludes": [
-            {
-              "group": "net.fabricmc.fabric-api",
-              "module": "*"
-            }
-          ]
-        }
-      ],
       "files": [
         {
           "name": "homeostaticseasons-1.21.1-fabric-1.0.0.1.jar",
           "url": "homeostaticseasons-1.21.1-fabric-1.0.0.1.jar",
-          "size": 762654,
-          "sha512": "78917763f953448c4ce28bf1b1dc706f88a93daf198f37ba02d0533349e6b0ebe5e266edae702d2a7ca182dde4315a37943ed642e727c84fd7280f5d945cf812",
-          "sha256": "c20b643bbe099252e909f47e0e9cef41a11887d6db8d8d1f923ec00aaa475d8d",
-          "sha1": "12e219dff02a5a00ab9ba03e257aac254b2d88fe",
-          "md5": "fccbbe9ea36d535a5326d94cdf7477dd"
+          "size": 762659,
+          "sha512": "2af022229a6d57da8fb76f8f922411ba5f8abf5cfed66b4eeb7c74f80f2c95625a4e16f439bbd4ae029cb31b1560094aaaa58ab91a2e2208a9da0070cefa752f",
+          "sha256": "dc174aa0785171c544b53886e623774eceb0d984b477e1981115323b5d4b943b",
+          "sha1": "433d7e2159a996054a1eb7428a21a74e05ce7b47",
+          "md5": "c4e73f287a6dfe34492bda11f08f81e5"
         }
       ],
       "capabilities": [
@@ -79,26 +57,6 @@
         "org.gradle.usage": "java-runtime"
       },
       "dependencies": [
-        {
-          "group": "dev.architectury",
-          "module": "architectury-fabric",
-          "version": {
-            "requires": "13.0.8"
-          }
-        },
-        {
-          "group": "me.shedaniel.cloth",
-          "module": "cloth-config-fabric",
-          "version": {
-            "requires": "15.0.140"
-          },
-          "excludes": [
-            {
-              "group": "net.fabricmc.fabric-api",
-              "module": "*"
-            }
-          ]
-        },
         {
           "group": "net.fabricmc",
           "module": "fabric-loader",
@@ -128,17 +86,37 @@
           }
         },
         {
-          "group": "com.electronwill.night-config",
-          "module": "core",
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
           "version": {
-            "requires": "3.6.7"
+            "requires": "13.0.8"
           }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.140"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
         },
         {
           "group": "net.jodah",
           "module": "typetools",
           "version": {
             "requires": "0.6.3"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.6.7"
           }
         },
         {
@@ -195,11 +173,11 @@
         {
           "name": "homeostaticseasons-1.21.1-fabric-1.0.0.1.jar",
           "url": "homeostaticseasons-1.21.1-fabric-1.0.0.1.jar",
-          "size": 762654,
-          "sha512": "78917763f953448c4ce28bf1b1dc706f88a93daf198f37ba02d0533349e6b0ebe5e266edae702d2a7ca182dde4315a37943ed642e727c84fd7280f5d945cf812",
-          "sha256": "c20b643bbe099252e909f47e0e9cef41a11887d6db8d8d1f923ec00aaa475d8d",
-          "sha1": "12e219dff02a5a00ab9ba03e257aac254b2d88fe",
-          "md5": "fccbbe9ea36d535a5326d94cdf7477dd"
+          "size": 762659,
+          "sha512": "2af022229a6d57da8fb76f8f922411ba5f8abf5cfed66b4eeb7c74f80f2c95625a4e16f439bbd4ae029cb31b1560094aaaa58ab91a2e2208a9da0070cefa752f",
+          "sha256": "dc174aa0785171c544b53886e623774eceb0d984b477e1981115323b5d4b943b",
+          "sha1": "433d7e2159a996054a1eb7428a21a74e05ce7b47",
+          "md5": "c4e73f287a6dfe34492bda11f08f81e5"
         }
       ],
       "capabilities": [
