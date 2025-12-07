@@ -27,11 +27,11 @@
         {
           "name": "homeostatic-1.21.1-fabric-2.11.0.1.jar",
           "url": "homeostatic-1.21.1-fabric-2.11.0.1.jar",
-          "size": 2739557,
-          "sha512": "5f976247190b8ee9920a6c6e5e8db2056315ff1c9075eecb8395945cd91be0c0884941a855c838616fcce2962a53ee3b8c85b851cd82a924147d2643570cde78",
-          "sha256": "08b77b55b3034fa6dc56a74c8cd78085d063a58998d79eeb989e03ff164f2b8f",
-          "sha1": "98fa23f143c49ed21bf0a8e16055d261d1fd51bf",
-          "md5": "22589f039cf2cc957093b788b8526f9e"
+          "size": 2740475,
+          "sha512": "414ce2ef1614bb6d718022ba3845370ff72d7b0d93e9764c92a88001b6a730de6bd9a9069d46959012248ae5c21f00d5d5a6213b2f30eda81fcc42ba19ef3fb2",
+          "sha256": "91d0f5a4c8d212af7baa9bd09a97a25aeb15f7077977daf7a2df58c56fb6ba39",
+          "sha1": "83f8efa51ffb2878c534aebbc82724ba7941b322",
+          "md5": "1016e0fb6d41ec635e74ec6f3ace51b7"
         }
       ],
       "capabilities": [
@@ -75,7 +75,7 @@
           "group": "com.github.wendall911.climatesettings",
           "module": "climatesettings-1.21.1-fabric",
           "version": {
-            "requires": "1.1.0"
+            "requires": "1.2.0"
           }
         },
         {
@@ -125,11 +125,11 @@
         {
           "name": "homeostatic-1.21.1-fabric-2.11.0.1.jar",
           "url": "homeostatic-1.21.1-fabric-2.11.0.1.jar",
-          "size": 2739557,
-          "sha512": "5f976247190b8ee9920a6c6e5e8db2056315ff1c9075eecb8395945cd91be0c0884941a855c838616fcce2962a53ee3b8c85b851cd82a924147d2643570cde78",
-          "sha256": "08b77b55b3034fa6dc56a74c8cd78085d063a58998d79eeb989e03ff164f2b8f",
-          "sha1": "98fa23f143c49ed21bf0a8e16055d261d1fd51bf",
-          "md5": "22589f039cf2cc957093b788b8526f9e"
+          "size": 2740475,
+          "sha512": "414ce2ef1614bb6d718022ba3845370ff72d7b0d93e9764c92a88001b6a730de6bd9a9069d46959012248ae5c21f00d5d5a6213b2f30eda81fcc42ba19ef3fb2",
+          "sha256": "91d0f5a4c8d212af7baa9bd09a97a25aeb15f7077977daf7a2df58c56fb6ba39",
+          "sha1": "83f8efa51ffb2878c534aebbc82724ba7941b322",
+          "md5": "1016e0fb6d41ec635e74ec6f3ace51b7"
         }
       ],
       "capabilities": [

@@ -20,7 +20,7 @@
     <dependency>
       <groupId>com.github.wendall911.climatesettings</groupId>
       <artifactId>climatesettings-1.21.1-common</artifactId>
-      <version>1.1.0</version>
+      <version>1.2.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>

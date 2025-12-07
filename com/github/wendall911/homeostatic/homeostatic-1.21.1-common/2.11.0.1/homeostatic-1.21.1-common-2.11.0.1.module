@@ -27,11 +27,11 @@
         {
           "name": "homeostatic-1.21.1-common-2.11.0.1.jar",
           "url": "homeostatic-1.21.1-common-2.11.0.1.jar",
-          "size": 1389071,
-          "sha512": "04b56f6b67e61f4f4dfa4cc1d37c721eb8265c4a31a49bff6ad2a6fc78de0f46195ec2c109bd5f2c9db8de7e8d3c465f283e765a277960a432e63cfaa8f2342e",
-          "sha256": "25c8ba2ea54478102bc97f42a35cd4ad57a92c377d0f600ffa4d517ad4130956",
-          "sha1": "dd7e7f3436014eb7c189fd487c82a7a5270911bb",
-          "md5": "2728426e6794a6b753820ff167010304"
+          "size": 1389072,
+          "sha512": "110a6118dc1e459e8fed30aeb8b58ec3b3ca8cc83ab7bb00253776e8fbd3e32bd79a61f47b9502d9f39459c820884820e981bc3defa01d047da73b7d202dbb8c",
+          "sha256": "3c2612a2e4f8ab1d4cf953d8849fd09ddfffc00dde105dbf80370df0abb5221c",
+          "sha1": "7504e2e96b16590ee37b35be5d8cdf550a50eae1",
+          "md5": "e2e7344aa4e7fe6370eff34abfde8481"
         }
       ],
       "capabilities": [
@@ -68,7 +68,7 @@
           "group": "com.github.wendall911.climatesettings",
           "module": "climatesettings-1.21.1-common",
           "version": {
-            "requires": "1.1.0"
+            "requires": "1.2.0"
           }
         },
         {
@@ -83,11 +83,11 @@
         {
           "name": "homeostatic-1.21.1-common-2.11.0.1.jar",
           "url": "homeostatic-1.21.1-common-2.11.0.1.jar",
-          "size": 1389071,
-          "sha512": "04b56f6b67e61f4f4dfa4cc1d37c721eb8265c4a31a49bff6ad2a6fc78de0f46195ec2c109bd5f2c9db8de7e8d3c465f283e765a277960a432e63cfaa8f2342e",
-          "sha256": "25c8ba2ea54478102bc97f42a35cd4ad57a92c377d0f600ffa4d517ad4130956",
-          "sha1": "dd7e7f3436014eb7c189fd487c82a7a5270911bb",
-          "md5": "2728426e6794a6b753820ff167010304"
+          "size": 1389072,
+          "sha512": "110a6118dc1e459e8fed30aeb8b58ec3b3ca8cc83ab7bb00253776e8fbd3e32bd79a61f47b9502d9f39459c820884820e981bc3defa01d047da73b7d202dbb8c",
+          "sha256": "3c2612a2e4f8ab1d4cf953d8849fd09ddfffc00dde105dbf80370df0abb5221c",
+          "sha1": "7504e2e96b16590ee37b35be5d8cdf550a50eae1",
+          "md5": "e2e7344aa4e7fe6370eff34abfde8481"
         }
       ],
       "capabilities": [
