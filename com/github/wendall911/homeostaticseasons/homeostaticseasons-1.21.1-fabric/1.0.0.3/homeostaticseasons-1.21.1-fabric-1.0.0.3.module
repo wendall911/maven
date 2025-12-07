@@ -27,11 +27,11 @@
         {
           "name": "homeostaticseasons-1.21.1-fabric-1.0.0.3.jar",
           "url": "homeostaticseasons-1.21.1-fabric-1.0.0.3.jar",
-          "size": 762660,
-          "sha512": "34924f8ec2e1e44d03a1de3c1fbf804058e6edfb934ef65139d7a6553b67ed16c031ad1c18c2fdf25b705534b1fc67094817e90822fa845124dff2712f58bcd2",
-          "sha256": "8befeb9c11a973019258acf038df567b4b53b703ffd382d6ae798a7145ac0c72",
-          "sha1": "fe0c1673417557d72fe2ccd568151ada8811e88e",
-          "md5": "4d88f78787e3cc471b8fb2739c3ae179"
+          "size": 762818,
+          "sha512": "8bf8425ab88d70aaeaacf9d245215472d56bad77ec11af451f00540235827fdb54ab68fe63bf4079339197b32d093d62a211052d9c70f499d0ff0c663c1389f6",
+          "sha256": "bc08a3082bd2b9aa5a450c93a8c0d768e3863579ebbc937ec28962152907b835",
+          "sha1": "ed34d25b3951190cd745c283f7045aff55ed2325",
+          "md5": "fe8fb2c3e10e0ad429d26dd04d9f3972"
         }
       ],
       "capabilities": [
@@ -97,11 +97,11 @@
         {
           "name": "homeostaticseasons-1.21.1-fabric-1.0.0.3.jar",
           "url": "homeostaticseasons-1.21.1-fabric-1.0.0.3.jar",
-          "size": 762660,
-          "sha512": "34924f8ec2e1e44d03a1de3c1fbf804058e6edfb934ef65139d7a6553b67ed16c031ad1c18c2fdf25b705534b1fc67094817e90822fa845124dff2712f58bcd2",
-          "sha256": "8befeb9c11a973019258acf038df567b4b53b703ffd382d6ae798a7145ac0c72",
-          "sha1": "fe0c1673417557d72fe2ccd568151ada8811e88e",
-          "md5": "4d88f78787e3cc471b8fb2739c3ae179"
+          "size": 762818,
+          "sha512": "8bf8425ab88d70aaeaacf9d245215472d56bad77ec11af451f00540235827fdb54ab68fe63bf4079339197b32d093d62a211052d9c70f499d0ff0c663c1389f6",
+          "sha256": "bc08a3082bd2b9aa5a450c93a8c0d768e3863579ebbc937ec28962152907b835",
+          "sha1": "ed34d25b3951190cd745c283f7045aff55ed2325",
+          "md5": "fe8fb2c3e10e0ad429d26dd04d9f3972"
         }
       ],
       "capabilities": [
