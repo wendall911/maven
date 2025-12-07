@@ -27,11 +27,11 @@
         {
           "name": "homeostatic-1.21.1-common-2.11.0.1.jar",
           "url": "homeostatic-1.21.1-common-2.11.0.1.jar",
-          "size": 1389072,
-          "sha512": "08aa335ac586550d1e953078f08d98587e5767e9bb0d467b9bd1e77773e885541849e80fc3868422e7f24443d73dd3222efe7ce14957bc5afc3e030691586107",
-          "sha256": "528ea2c4c695248647248bdada115b6148db0ec9c9e362f6ca882eea8460a598",
-          "sha1": "ae9dc9132c9443b441fe036343b152482a4a25aa",
-          "md5": "a9b932dd084e4534bb9b506c2ae51893"
+          "size": 1389071,
+          "sha512": "04b56f6b67e61f4f4dfa4cc1d37c721eb8265c4a31a49bff6ad2a6fc78de0f46195ec2c109bd5f2c9db8de7e8d3c465f283e765a277960a432e63cfaa8f2342e",
+          "sha256": "25c8ba2ea54478102bc97f42a35cd4ad57a92c377d0f600ffa4d517ad4130956",
+          "sha1": "dd7e7f3436014eb7c189fd487c82a7a5270911bb",
+          "md5": "2728426e6794a6b753820ff167010304"
         }
       ],
       "capabilities": [
@@ -75,7 +75,7 @@
           "group": "com.github.wendall911.homeostaticseasons",
           "module": "homeostaticseasons-1.21.1-common",
           "version": {
-            "requires": "1.0.0.2"
+            "requires": "1.0.0.3"
           }
         }
       ],
@@ -83,11 +83,11 @@
         {
           "name": "homeostatic-1.21.1-common-2.11.0.1.jar",
           "url": "homeostatic-1.21.1-common-2.11.0.1.jar",
-          "size": 1389072,
-          "sha512": "08aa335ac586550d1e953078f08d98587e5767e9bb0d467b9bd1e77773e885541849e80fc3868422e7f24443d73dd3222efe7ce14957bc5afc3e030691586107",
-          "sha256": "528ea2c4c695248647248bdada115b6148db0ec9c9e362f6ca882eea8460a598",
-          "sha1": "ae9dc9132c9443b441fe036343b152482a4a25aa",
-          "md5": "a9b932dd084e4534bb9b506c2ae51893"
+          "size": 1389071,
+          "sha512": "04b56f6b67e61f4f4dfa4cc1d37c721eb8265c4a31a49bff6ad2a6fc78de0f46195ec2c109bd5f2c9db8de7e8d3c465f283e765a277960a432e63cfaa8f2342e",
+          "sha256": "25c8ba2ea54478102bc97f42a35cd4ad57a92c377d0f600ffa4d517ad4130956",
+          "sha1": "dd7e7f3436014eb7c189fd487c82a7a5270911bb",
+          "md5": "2728426e6794a6b753820ff167010304"
         }
       ],
       "capabilities": [

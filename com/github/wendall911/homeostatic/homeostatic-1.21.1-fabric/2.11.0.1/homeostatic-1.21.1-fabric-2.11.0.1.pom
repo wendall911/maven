@@ -44,7 +44,7 @@
     <dependency>
       <groupId>com.github.wendall911.homeostaticseasons</groupId>
       <artifactId>homeostaticseasons-1.21.1-fabric</artifactId>
-      <version>1.0.0.2</version>
+      <version>1.0.0.3</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -63,66 +63,6 @@
       <groupId>com.electronwill.night-config</groupId>
       <artifactId>core</artifactId>
       <version>3.6.7</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>dev.architectury</groupId>
-      <artifactId>architectury-fabric</artifactId>
-      <version>13.0.8</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>me.shedaniel.cloth</groupId>
-      <artifactId>cloth-config-fabric</artifactId>
-      <version>15.0.140</version>
-      <scope>runtime</scope>
-      <exclusions>
-        <exclusion>
-          <groupId>net.fabricmc.fabric-api</groupId>
-          <artifactId>*</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>me.shedaniel</groupId>
-      <artifactId>RoughlyEnoughItems-fabric</artifactId>
-      <version>16.0.799</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>net.jodah</groupId>
-      <artifactId>typetools</artifactId>
-      <version>0.6.3</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>curse.maven</groupId>
-      <artifactId>terrablender-565956</artifactId>
-      <version>5864141</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>curse.maven</groupId>
-      <artifactId>byg-1070751</artifactId>
-      <version>5894945</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>curse.maven</groupId>
-      <artifactId>tyg-962544</artifactId>
-      <version>5691179</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>curse.maven</groupId>
-      <artifactId>corgilib-693313</artifactId>
-      <version>5691272</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>software.bernie.geckolib</groupId>
-      <artifactId>geckolib-fabric-1.21.1</artifactId>
-      <version>4.7</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
