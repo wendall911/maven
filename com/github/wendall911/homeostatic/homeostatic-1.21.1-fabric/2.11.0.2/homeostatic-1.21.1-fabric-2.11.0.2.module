@@ -1,0 +1,149 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.wendall911.homeostatic",
+    "module": "homeostatic-1.21.1-fabric",
+    "version": "2.11.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "homeostatic-1.21.1-fabric-2.11.0.2.jar",
+          "url": "homeostatic-1.21.1-fabric-2.11.0.2.jar",
+          "size": 2965422,
+          "sha512": "3762fcd9f1e4736b91339ec4f6fa99355502d6d08ee4ea338f94723377806168e22c20fba85c8d4b16437b6755cb978f0c0f619d079355d24bf4161da6ccbccc",
+          "sha256": "fb9e303c2fff453f40f31f764554a3dfa5fda4606864186dfd8d556c97a6d9bb",
+          "sha1": "d946a1679eebf784bce299a2eb7c5b63d28b4d90",
+          "md5": "7fc214ff2ab7359e729d5e0d35054b12"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.wendall911.homeostatic",
+          "name": "homeostatic",
+          "version": "2.11.0.2"
+        },
+        {
+          "group": "com.github.wendall911.homeostatic",
+          "name": "homeostatic-1.21.1-fabric",
+          "version": "2.11.0.2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.6+1.21.1"
+          }
+        },
+        {
+          "group": "com.github.wendall911.climatesettings",
+          "module": "climatesettings-1.21.1-fabric",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "module": "whitenoise-1.21.1-fabric",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "technology.roughness.handbook",
+          "module": "handbook-1.21.1-fabric",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "com.github.wendall911.homeostaticseasons",
+          "module": "homeostaticseasons-1.21.1-fabric",
+          "version": {
+            "requires": "1.1.0.1"
+          }
+        },
+        {
+          "group": "org.ladysnake.cardinal-components-api",
+          "module": "cardinal-components-base",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "org.ladysnake.cardinal-components-api",
+          "module": "cardinal-components-entity",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.6.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "homeostatic-1.21.1-fabric-2.11.0.2.jar",
+          "url": "homeostatic-1.21.1-fabric-2.11.0.2.jar",
+          "size": 2965422,
+          "sha512": "3762fcd9f1e4736b91339ec4f6fa99355502d6d08ee4ea338f94723377806168e22c20fba85c8d4b16437b6755cb978f0c0f619d079355d24bf4161da6ccbccc",
+          "sha256": "fb9e303c2fff453f40f31f764554a3dfa5fda4606864186dfd8d556c97a6d9bb",
+          "sha1": "d946a1679eebf784bce299a2eb7c5b63d28b4d90",
+          "md5": "7fc214ff2ab7359e729d5e0d35054b12"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.wendall911.homeostatic",
+          "name": "homeostatic",
+          "version": "2.11.0.2"
+        },
+        {
+          "group": "com.github.wendall911.homeostatic",
+          "name": "homeostatic-1.21.1-fabric",
+          "version": "2.11.0.2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.wendall911.climatesettings",
+    "module": "climatesettings-1.21.10-common",
+    "version": "1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "climatesettings-1.21.10-common-1.2.0.jar",
+          "url": "climatesettings-1.21.10-common-1.2.0.jar",
+          "size": 185492,
+          "sha512": "65bb0ac73dacece765deae9eac355d7003ae5a31dc92535fd3b31c8c8141a52685d146eeddbfc7448544e3efbf9f1fe5c5b2c27a613ece37a355ea9a96e9fa28",
+          "sha256": "8ef9bbda049d21fa47b6a54a33c77c0e0719e172eeb430a3002314dd5cdcdc2e",
+          "sha1": "3d632d0377cee76f31c6b458eaf3579526a57e12",
+          "md5": "d95423d569462c6e4ab8c09711a128f8"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.wendall911.climatesettings",
+          "name": "climatesettings-1.21.10-common",
+          "version": "1.2.0"
+        },
+        {
+          "group": "com.github.wendall911.climatesettings",
+          "name": "climatesettings",
+          "version": "1.2.0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "technology.roughness.whitenoise",
+          "module": "whitenoise-1.21.10-common",
+          "version": {
+            "requires": "2.0.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "climatesettings-1.21.10-common-1.2.0.jar",
+          "url": "climatesettings-1.21.10-common-1.2.0.jar",
+          "size": 185492,
+          "sha512": "65bb0ac73dacece765deae9eac355d7003ae5a31dc92535fd3b31c8c8141a52685d146eeddbfc7448544e3efbf9f1fe5c5b2c27a613ece37a355ea9a96e9fa28",
+          "sha256": "8ef9bbda049d21fa47b6a54a33c77c0e0719e172eeb430a3002314dd5cdcdc2e",
+          "sha1": "3d632d0377cee76f31c6b458eaf3579526a57e12",
+          "md5": "d95423d569462c6e4ab8c09711a128f8"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.wendall911.climatesettings",
+          "name": "climatesettings-1.21.10-common",
+          "version": "1.2.0"
+        },
+        {
+          "group": "com.github.wendall911.climatesettings",
+          "name": "climatesettings",
+          "version": "1.2.0"
+        }
+      ]
+    }
+  ]
+}
