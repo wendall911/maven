@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "technology.roughness.handbook",
+    "module": "handbook-1.21.10-fabric",
+    "version": "1.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "18.0.5"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "20.0.148"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "handbook-1.21.10-fabric-1.2.3.jar",
+          "url": "handbook-1.21.10-fabric-1.2.3.jar",
+          "size": 656616,
+          "sha512": "f5bd7fe55e8b26469780a42dfdc1554791bc3f701567be49b861e19bdf1c8e63014df8558f73f1646ac5cf4ba429630399c6c7e60517bbbe8d0c53fbe7575f04",
+          "sha256": "d2aa5e3f4c4b5c9385d4f9912e6a735e80923db6794fea68a82d0646478d9db4",
+          "sha1": "d3f48e0c548ba40bffa1ffba17b1ed72711e8a16",
+          "md5": "4452082b8fd631bcacbb4287dd274252"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook",
+          "version": "1.2.3"
+        },
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook-1.21.10-fabric",
+          "version": "1.2.3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "18.0.5"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "20.0.148"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.3"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.135.0+1.21.10"
+          }
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "module": "whitenoise-1.21.10-fabric",
+          "version": {
+            "requires": "2.0.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "handbook-1.21.10-fabric-1.2.3.jar",
+          "url": "handbook-1.21.10-fabric-1.2.3.jar",
+          "size": 656616,
+          "sha512": "f5bd7fe55e8b26469780a42dfdc1554791bc3f701567be49b861e19bdf1c8e63014df8558f73f1646ac5cf4ba429630399c6c7e60517bbbe8d0c53fbe7575f04",
+          "sha256": "d2aa5e3f4c4b5c9385d4f9912e6a735e80923db6794fea68a82d0646478d9db4",
+          "sha1": "d3f48e0c548ba40bffa1ffba17b1ed72711e8a16",
+          "md5": "4452082b8fd631bcacbb4287dd274252"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook",
+          "version": "1.2.3"
+        },
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook-1.21.10-fabric",
+          "version": "1.2.3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "handbook-1.21.10-fabric-1.2.3-sources.jar",
+          "url": "handbook-1.21.10-fabric-1.2.3-sources.jar",
+          "size": 445744,
+          "sha512": "c3ca8106f092588b2783004a6a15f838a84cc0171f542c962b716ffa2e8853361cf383291463fdc63414446c038eeb9aaa649c67a8e0accfc3bd48763e41a08a",
+          "sha256": "e387260efb9c7b3770430af7443e9089d71f7b732d31cc57dd89d25f06d6d39e",
+          "sha1": "de8471c311774e34c9b30aa5994369f5456f4268",
+          "md5": "2fc75208f4d7a3d7aa65f73b85dd3e91"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook",
+          "version": "1.2.3"
+        },
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook-1.21.10-fabric",
+          "version": "1.2.3"
+        }
+      ]
+    }
+  ]
+}

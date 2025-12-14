@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "technology.roughness.handbook",
+    "module": "handbook-1.21.10-common",
+    "version": "1.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "handbook-1.21.10-common-1.2.3.jar",
+          "url": "handbook-1.21.10-common-1.2.3.jar",
+          "size": 623553,
+          "sha512": "816100fcc15e03aaa50dc81a72d3ab268f3fe2c5151e24b9465743d7457d1d79f36cda1884f17e7e5bfc839f83bfa11549d844d6a61bae38f3c1124bbe0d3569",
+          "sha256": "56e00fa1f0a530c7ccd77f31e595b6976271638c1d515fbbf2de704b983045e1",
+          "sha1": "3a9a47e7f6fbeed952d0e1952a0bf9f698cb3ff2",
+          "md5": "78cbd7e177a71d933e1051fa4cfea22d"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook",
+          "version": "1.2.3"
+        },
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook-1.21.10-common",
+          "version": "1.2.3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "module": "whitenoise-1.21.10-common",
+          "version": {
+            "requires": "2.0.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "handbook-1.21.10-common-1.2.3.jar",
+          "url": "handbook-1.21.10-common-1.2.3.jar",
+          "size": 623553,
+          "sha512": "816100fcc15e03aaa50dc81a72d3ab268f3fe2c5151e24b9465743d7457d1d79f36cda1884f17e7e5bfc839f83bfa11549d844d6a61bae38f3c1124bbe0d3569",
+          "sha256": "56e00fa1f0a530c7ccd77f31e595b6976271638c1d515fbbf2de704b983045e1",
+          "sha1": "3a9a47e7f6fbeed952d0e1952a0bf9f698cb3ff2",
+          "md5": "78cbd7e177a71d933e1051fa4cfea22d"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook",
+          "version": "1.2.3"
+        },
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook-1.21.10-common",
+          "version": "1.2.3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "handbook-1.21.10-common-1.2.3-sources.jar",
+          "url": "handbook-1.21.10-common-1.2.3-sources.jar",
+          "size": 422159,
+          "sha512": "945fdf6f9c18a333aa4310069e4b3d32c6af621dad4489a752645498010ab1ae63ac2b2710c9da8b35f0664e3ab1bf31a0c4a324eaefa80968525c1c82ce514c",
+          "sha256": "9cbd5929cc13bcf2bd864b2834babddb295f7235f920cdadf0da95b497f347aa",
+          "sha1": "888a9297324dc9d88ed9c8634738053f1eae0da5",
+          "md5": "404468d54cf8dc9b3270252e4ae7c034"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook",
+          "version": "1.2.3"
+        },
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook-1.21.10-common",
+          "version": "1.2.3"
+        }
+      ]
+    }
+  ]
+}
