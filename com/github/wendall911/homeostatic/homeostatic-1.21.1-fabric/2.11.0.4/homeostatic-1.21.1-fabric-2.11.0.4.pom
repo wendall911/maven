@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.wendall911.homeostatic</groupId>
+  <artifactId>homeostatic-1.21.1-fabric</artifactId>
+  <version>2.11.0.4</version>
+  <dependencies>
+    <dependency>
+      <groupId>net.fabricmc</groupId>
+      <artifactId>fabric-loader</artifactId>
+      <version>0.18.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-api</artifactId>
+      <version>0.116.6+1.21.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.wendall911.climatesettings</groupId>
+      <artifactId>climatesettings-1.21.1-fabric</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>technology.roughness.whitenoise</groupId>
+      <artifactId>whitenoise-1.21.1-fabric</artifactId>
+      <version>2.0.7</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>technology.roughness.handbook</groupId>
+      <artifactId>handbook-1.21.1-fabric</artifactId>
+      <version>1.2.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.wendall911.homeostaticseasons</groupId>
+      <artifactId>homeostaticseasons-1.21.1-fabric</artifactId>
+      <version>1.1.0.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ladysnake.cardinal-components-api</groupId>
+      <artifactId>cardinal-components-base</artifactId>
+      <version>6.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ladysnake.cardinal-components-api</groupId>
+      <artifactId>cardinal-components-entity</artifactId>
+      <version>6.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.electronwill.night-config</groupId>
+      <artifactId>core</artifactId>
+      <version>3.6.7</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
