@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.wendall911.climatesettings",
+    "module": "climatesettings-26.1.1-common",
+    "version": "1.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "climatesettings-26.1.1-common-1.2.1.jar",
+          "url": "climatesettings-26.1.1-common-1.2.1.jar",
+          "size": 185838,
+          "sha512": "692f4f3e9a48883625c846d75e85f7f2acf0a689a8f830985958ed8a870c0c46656513f4beea67e082dfb961a70d6d92a2788951432c4ce7ba955063c812e8ae",
+          "sha256": "557f6ad051ec9d705ea1c0535222f5e9556ad4bf144bcbf13d3aedc228b14d09",
+          "sha1": "2d2d004ab03f7cc7520544ad9f81aa5898fff3d0",
+          "md5": "2301c1e24c3e291b3771d1613cd524c5"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.wendall911.climatesettings",
+          "name": "climatesettings-26.1.1-common",
+          "version": "1.2.1"
+        },
+        {
+          "group": "com.github.wendall911.climatesettings",
+          "name": "climatesettings",
+          "version": "1.2.1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "technology.roughness.whitenoise",
+          "module": "whitenoise-26.1.1-common",
+          "version": {
+            "requires": "2.0.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "climatesettings-26.1.1-common-1.2.1.jar",
+          "url": "climatesettings-26.1.1-common-1.2.1.jar",
+          "size": 185838,
+          "sha512": "692f4f3e9a48883625c846d75e85f7f2acf0a689a8f830985958ed8a870c0c46656513f4beea67e082dfb961a70d6d92a2788951432c4ce7ba955063c812e8ae",
+          "sha256": "557f6ad051ec9d705ea1c0535222f5e9556ad4bf144bcbf13d3aedc228b14d09",
+          "sha1": "2d2d004ab03f7cc7520544ad9f81aa5898fff3d0",
+          "md5": "2301c1e24c3e291b3771d1613cd524c5"
+        }
+      ]
+    }
+  ]
+}
