@@ -27,11 +27,11 @@
         {
           "name": "handbook-26.1.1-fabric-1.2.2.jar",
           "url": "handbook-26.1.1-fabric-1.2.2.jar",
-          "size": 652357,
-          "sha512": "9e38d98b76a0c067e1a962e3c84f3ab3d6a08c80d3d75ea0a63cf47e77472c3de1823164c2a973e8c58d3d05c05a6304be5d854095a7578b0afc0913bf5821bd",
-          "sha256": "040aed81386eee11e8d4bc6ddb45f0d0302a1ad64c881831d1390711a800d2ab",
-          "sha1": "d488dd91ec646744b3da2b98daf7ea16ab9cf5b3",
-          "md5": "ce2c2d123fdfeb8c832e071cd02cfd49"
+          "size": 650197,
+          "sha512": "c7a44a66b3b91bc4792b51ee9e9b74db2b52ca554c28f6606e702591f578921bfa8fd28f5953c970a4ef02fcbf55d56e5c8755758b13c91cac880a9889965837",
+          "sha256": "4ce691c798398d687233abbfa8e096994bcd44c9ad1792d0540d635d9f90c0ed",
+          "sha1": "3e8d4f4ff79e3d7fb03660bdd52838ff5adfec8a",
+          "md5": "ea275f41525f09f17b28f436057b692f"
         }
       ],
       "capabilities": [
@@ -97,11 +97,11 @@
         {
           "name": "handbook-26.1.1-fabric-1.2.2.jar",
           "url": "handbook-26.1.1-fabric-1.2.2.jar",
-          "size": 652357,
-          "sha512": "9e38d98b76a0c067e1a962e3c84f3ab3d6a08c80d3d75ea0a63cf47e77472c3de1823164c2a973e8c58d3d05c05a6304be5d854095a7578b0afc0913bf5821bd",
-          "sha256": "040aed81386eee11e8d4bc6ddb45f0d0302a1ad64c881831d1390711a800d2ab",
-          "sha1": "d488dd91ec646744b3da2b98daf7ea16ab9cf5b3",
-          "md5": "ce2c2d123fdfeb8c832e071cd02cfd49"
+          "size": 650197,
+          "sha512": "c7a44a66b3b91bc4792b51ee9e9b74db2b52ca554c28f6606e702591f578921bfa8fd28f5953c970a4ef02fcbf55d56e5c8755758b13c91cac880a9889965837",
+          "sha256": "4ce691c798398d687233abbfa8e096994bcd44c9ad1792d0540d635d9f90c0ed",
+          "sha1": "3e8d4f4ff79e3d7fb03660bdd52838ff5adfec8a",
+          "md5": "ea275f41525f09f17b28f436057b692f"
         }
       ],
       "capabilities": [
@@ -129,11 +129,11 @@
         {
           "name": "handbook-26.1.1-fabric-1.2.2-sources.jar",
           "url": "handbook-26.1.1-fabric-1.2.2-sources.jar",
-          "size": 437517,
-          "sha512": "6f2127adce3ec3f272f6a831d191497ba08f002338f5167107c3ecaf4268e57ce69ec9a3a85aaad7cedf01c70b4f8d8aa5d4c7f710ac5092345ce6d8d2c3ad0d",
-          "sha256": "a707da5687f623ed36e278892096660fe9842d53fef68cec690a3975e79c7e85",
-          "sha1": "e2c833239edc1f17b42a95b28d9223bd82c2ed5d",
-          "md5": "620c479a757532f1470c8e66abe1b5cc"
+          "size": 435746,
+          "sha512": "606746334d6e891332a4cb894a9d287258b7ded5462261d27e0749666fa925e7405006b195265211d849a326b1430691f8f2dc8713dfc2c4656c178853963c29",
+          "sha256": "5e22c5c4dea812b48cf3cbb65607a0ba0332261f253e1e39d40d8625c384a7bb",
+          "sha1": "bdad8ce748ba77397ffc3902a8898087f2f794b7",
+          "md5": "83ad4a57e4642eda47d24d30b72e2404"
         }
       ],
       "capabilities": [
