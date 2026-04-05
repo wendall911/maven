@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.wendall911.homeostaticseasons",
+    "module": "homeostaticseasons-26.1.1-fabric",
+    "version": "1.1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "homeostaticseasons-26.1.1-fabric-1.1.0.5.jar",
+          "url": "homeostaticseasons-26.1.1-fabric-1.1.0.5.jar",
+          "size": 1013857,
+          "sha512": "e8b6f08960100f0802c1238a69ae4d2fcd7aa83330afa304cafda232426202ff98ee7a1a26dbbb7fbcfa2a6c1ddf69cde59980997a6f8a4aad5fa5000e94cb20",
+          "sha256": "06239564c544a96262512bb87bc39c2835a6e8fa1118a68fb540d645679c2f62",
+          "sha1": "582d7fd263b170e6b3dac0f8109b8489060f95ce",
+          "md5": "5f00a179f24edf2cbf5d389c8690654f"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.wendall911.homeostaticseasons",
+          "name": "homeostaticseasons-26.1.1-fabric",
+          "version": "1.1.0.5"
+        },
+        {
+          "group": "com.github.wendall911.homeostaticseasons",
+          "name": "homeostaticseasons",
+          "version": "1.1.0.5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.6"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.145.2+26.1.1"
+          }
+        },
+        {
+          "group": "com.github.wendall911.climatesettings",
+          "module": "climatesettings-26.1.1-fabric",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "module": "whitenoise-26.1.1-fabric",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.6.7"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "26.1.154"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.jodah",
+          "module": "typetools",
+          "version": {
+            "requires": "0.6.3"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "18.0.0-alpha.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "homeostaticseasons-26.1.1-fabric-1.1.0.5.jar",
+          "url": "homeostaticseasons-26.1.1-fabric-1.1.0.5.jar",
+          "size": 1013857,
+          "sha512": "e8b6f08960100f0802c1238a69ae4d2fcd7aa83330afa304cafda232426202ff98ee7a1a26dbbb7fbcfa2a6c1ddf69cde59980997a6f8a4aad5fa5000e94cb20",
+          "sha256": "06239564c544a96262512bb87bc39c2835a6e8fa1118a68fb540d645679c2f62",
+          "sha1": "582d7fd263b170e6b3dac0f8109b8489060f95ce",
+          "md5": "5f00a179f24edf2cbf5d389c8690654f"
+        }
+      ]
+    }
+  ]
+}
