@@ -28,10 +28,10 @@
           "name": "handbook-26.1.1-fabric-1.2.2.jar",
           "url": "handbook-26.1.1-fabric-1.2.2.jar",
           "size": 650197,
-          "sha512": "c7a44a66b3b91bc4792b51ee9e9b74db2b52ca554c28f6606e702591f578921bfa8fd28f5953c970a4ef02fcbf55d56e5c8755758b13c91cac880a9889965837",
-          "sha256": "4ce691c798398d687233abbfa8e096994bcd44c9ad1792d0540d635d9f90c0ed",
-          "sha1": "3e8d4f4ff79e3d7fb03660bdd52838ff5adfec8a",
-          "md5": "ea275f41525f09f17b28f436057b692f"
+          "sha512": "d9a618682141b4f0c0caa0c5bab30b46d440b7ac2dbbb0b18b04ce35178aaa1db53c1a06fe3e0e70e58bf3949ee794e39f7f24374a4d060e00f708045693a92f",
+          "sha256": "6268a6705ab2e54099bad8512458d2fa6f4f1acf2fa25098f6f1c5182ca764ec",
+          "sha1": "2ded284404c36f4a032887e87ffc8400db84eb13",
+          "md5": "7d98ce3a2ef20c71610dc85ea2ce59ef"
         }
       ],
       "capabilities": [
@@ -98,10 +98,10 @@
           "name": "handbook-26.1.1-fabric-1.2.2.jar",
           "url": "handbook-26.1.1-fabric-1.2.2.jar",
           "size": 650197,
-          "sha512": "c7a44a66b3b91bc4792b51ee9e9b74db2b52ca554c28f6606e702591f578921bfa8fd28f5953c970a4ef02fcbf55d56e5c8755758b13c91cac880a9889965837",
-          "sha256": "4ce691c798398d687233abbfa8e096994bcd44c9ad1792d0540d635d9f90c0ed",
-          "sha1": "3e8d4f4ff79e3d7fb03660bdd52838ff5adfec8a",
-          "md5": "ea275f41525f09f17b28f436057b692f"
+          "sha512": "d9a618682141b4f0c0caa0c5bab30b46d440b7ac2dbbb0b18b04ce35178aaa1db53c1a06fe3e0e70e58bf3949ee794e39f7f24374a4d060e00f708045693a92f",
+          "sha256": "6268a6705ab2e54099bad8512458d2fa6f4f1acf2fa25098f6f1c5182ca764ec",
+          "sha1": "2ded284404c36f4a032887e87ffc8400db84eb13",
+          "md5": "7d98ce3a2ef20c71610dc85ea2ce59ef"
         }
       ],
       "capabilities": [

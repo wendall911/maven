@@ -27,11 +27,11 @@
         {
           "name": "handbook-26.1.1-common-1.2.2.jar",
           "url": "handbook-26.1.1-common-1.2.2.jar",
-          "size": 619889,
-          "sha512": "16fca56df428f7137a29a427d01d5fc9b4e6e28436d89b04782b0d465ed325fe4165eebfa9d3ea2200373183af2af80c5528512c17cb1f7794318de28309d186",
-          "sha256": "e7ac9f245679e5e4e59c7d55539b305d5d99878f61e1561397e2e920778b7932",
-          "sha1": "1a69b9d4543e1bfd4b754200b7bd9a13fc02c616",
-          "md5": "fda40afaed50007127a552dcf337aa98"
+          "size": 619890,
+          "sha512": "e07e6969296734f56ee51fa7de87a722f5ba5e7c5670307891e0378ad9c95e6514ef7188e31026842fe6548db5778143480defe78aaf66ca273a35454571bad3",
+          "sha256": "5e9c8b1172cde070dcedca257cac1b1b7f9a686451f43b1d5961b81c8739a092",
+          "sha1": "f3f0c943955f6e7f101fbe93474d9fdad12f913e",
+          "md5": "255d5b6bcd38fc2633eeba2c6ee15ec7"
         }
       ],
       "capabilities": [
@@ -76,11 +76,11 @@
         {
           "name": "handbook-26.1.1-common-1.2.2.jar",
           "url": "handbook-26.1.1-common-1.2.2.jar",
-          "size": 619889,
-          "sha512": "16fca56df428f7137a29a427d01d5fc9b4e6e28436d89b04782b0d465ed325fe4165eebfa9d3ea2200373183af2af80c5528512c17cb1f7794318de28309d186",
-          "sha256": "e7ac9f245679e5e4e59c7d55539b305d5d99878f61e1561397e2e920778b7932",
-          "sha1": "1a69b9d4543e1bfd4b754200b7bd9a13fc02c616",
-          "md5": "fda40afaed50007127a552dcf337aa98"
+          "size": 619890,
+          "sha512": "e07e6969296734f56ee51fa7de87a722f5ba5e7c5670307891e0378ad9c95e6514ef7188e31026842fe6548db5778143480defe78aaf66ca273a35454571bad3",
+          "sha256": "5e9c8b1172cde070dcedca257cac1b1b7f9a686451f43b1d5961b81c8739a092",
+          "sha1": "f3f0c943955f6e7f101fbe93474d9fdad12f913e",
+          "md5": "255d5b6bcd38fc2633eeba2c6ee15ec7"
         }
       ],
       "capabilities": [
