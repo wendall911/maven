@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "technology.roughness.whitenoise",
+    "module": "whitenoise-26.1.2-common",
+    "version": "2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "whitenoise-26.1.2-common-2.1.0.jar",
+          "url": "whitenoise-26.1.2-common-2.1.0.jar",
+          "size": 161606,
+          "sha512": "f99663809a53c94900d20c401eb73bd915ccc69a651e1e03f93a7681105482ab9a560d2356f4a34246c2ab7071737c2b9be1838d13acccb1e18774a06631e22d",
+          "sha256": "5cb761942fd57828446614b9d725424f31239c1ec22af18ced80b36bd7e13880",
+          "sha1": "7718f9d82261e1ccf2cceb1cdd0ac230f64faa05",
+          "md5": "7bde99927528be66bcab48674adaa2fb"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.whitenoise",
+          "name": "whitenoise-26.1.2-common",
+          "version": "2.1.0"
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "name": "whitenoise",
+          "version": "2.1.0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "whitenoise-26.1.2-common-2.1.0.jar",
+          "url": "whitenoise-26.1.2-common-2.1.0.jar",
+          "size": 161606,
+          "sha512": "f99663809a53c94900d20c401eb73bd915ccc69a651e1e03f93a7681105482ab9a560d2356f4a34246c2ab7071737c2b9be1838d13acccb1e18774a06631e22d",
+          "sha256": "5cb761942fd57828446614b9d725424f31239c1ec22af18ced80b36bd7e13880",
+          "sha1": "7718f9d82261e1ccf2cceb1cdd0ac230f64faa05",
+          "md5": "7bde99927528be66bcab48674adaa2fb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "whitenoise-26.1.2-common-2.1.0-sources.jar",
+          "url": "whitenoise-26.1.2-common-2.1.0-sources.jar",
+          "size": 77107,
+          "sha512": "53a997392b7c7fe51de4e418537f1e1ce2dab17974ddcaa87217f529a223c94219d364861dd9b1dd560dc21f03d72ea4206e6940eca575982e17618641251880",
+          "sha256": "79fa5e309cd3bd79955d9a4e4d2df45148b870f536cd57ed85ba62ca732b7f7f",
+          "sha1": "63c0c692c4e4f821b95cf53b55f228e3ac102c02",
+          "md5": "81065338f25b6f4bc273a0987633505a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.whitenoise",
+          "name": "whitenoise-26.1.2-common",
+          "version": "2.1.0"
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "name": "whitenoise",
+          "version": "2.1.0"
+        }
+      ]
+    }
+  ]
+}

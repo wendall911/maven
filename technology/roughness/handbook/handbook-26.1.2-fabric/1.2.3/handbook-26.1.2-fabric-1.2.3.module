@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "technology.roughness.handbook",
+    "module": "handbook-26.1.2-fabric",
+    "version": "1.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "handbook-26.1.2-fabric-1.2.3.jar",
+          "url": "handbook-26.1.2-fabric-1.2.3.jar",
+          "size": 651182,
+          "sha512": "9c6dba98c27ab5e1e813fe33b83579deeade7bec2a673857df3cf6e72a9042b23f2c7efd57eabc9125c795d180322c2af1640b1150a673db8a858bc272bfabdf",
+          "sha256": "2c33ff848c72e4e6185d5466f5a0416997ded832ae3c73bd0a51da5691e6a441",
+          "sha1": "696ba412e9076b48edee72a491fc6ec3d9d37df1",
+          "md5": "ada42d9305d3631c055ec8339a4a3601"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook",
+          "version": "1.2.3"
+        },
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook-26.1.2-fabric",
+          "version": "1.2.3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.6"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.145.4+26.1.2"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "module": "whitenoise-26.1.2-fabric",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "handbook-26.1.2-fabric-1.2.3.jar",
+          "url": "handbook-26.1.2-fabric-1.2.3.jar",
+          "size": 651182,
+          "sha512": "9c6dba98c27ab5e1e813fe33b83579deeade7bec2a673857df3cf6e72a9042b23f2c7efd57eabc9125c795d180322c2af1640b1150a673db8a858bc272bfabdf",
+          "sha256": "2c33ff848c72e4e6185d5466f5a0416997ded832ae3c73bd0a51da5691e6a441",
+          "sha1": "696ba412e9076b48edee72a491fc6ec3d9d37df1",
+          "md5": "ada42d9305d3631c055ec8339a4a3601"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook",
+          "version": "1.2.3"
+        },
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook-26.1.2-fabric",
+          "version": "1.2.3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "handbook-26.1.2-fabric-1.2.3-sources.jar",
+          "url": "handbook-26.1.2-fabric-1.2.3-sources.jar",
+          "size": 435703,
+          "sha512": "acc1e714df5b05ffdc30c9db3a7bc23229c0412d9eb7087b28bf4f754e51c2a70d1f59e8b2ffdb8171f6b4e262610a5f38fba021a42299a68b7c3e24af8da6fe",
+          "sha256": "64f622b6f7a95f6825369ac6cec88ff7c381e9405341874bed95a78435709c9c",
+          "sha1": "b487ba660896b64eb528c70350f0f1f26ae25806",
+          "md5": "b73a3b908ac0abd488f752e2534f0168"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook",
+          "version": "1.2.3"
+        },
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook-26.1.2-fabric",
+          "version": "1.2.3"
+        }
+      ]
+    }
+  ]
+}

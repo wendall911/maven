@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.wendall911.homeostatic",
+    "module": "homeostatic-26.1.2-fabric",
+    "version": "2.11.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "homeostatic-26.1.2-fabric-2.11.0.3.jar",
+          "url": "homeostatic-26.1.2-fabric-2.11.0.3.jar",
+          "size": 2966386,
+          "sha512": "bdb3ea79531a4a2bb459c9fd3eb1be3788d1a19014898296b99d9427c313e2582c98e4ce198f74b1df8c5c14b2a433a3b95b67249d34c4d29e9c7fb6892f1441",
+          "sha256": "b92d470458493dea0221aadbd6f24c753115cedb3911889f94aa1eb49cfc735c",
+          "sha1": "c648a07b0b020fd91996af742454299bb413ad74",
+          "md5": "bb3aa7cbb4118aee40ded3830e874552"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.wendall911.homeostatic",
+          "name": "homeostatic-26.1.2-fabric",
+          "version": "2.11.0.3"
+        },
+        {
+          "group": "com.github.wendall911.homeostatic",
+          "name": "homeostatic",
+          "version": "2.11.0.3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.6"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.145.4+26.1.2"
+          }
+        },
+        {
+          "group": "com.github.wendall911.climatesettings",
+          "module": "climatesettings-26.1.2-fabric",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "module": "whitenoise-26.1.2-fabric",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "technology.roughness.handbook",
+          "module": "handbook-26.1.2-fabric",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "com.github.wendall911.homeostaticseasons",
+          "module": "homeostaticseasons-26.1.2-fabric",
+          "version": {
+            "requires": "1.1.0.7"
+          }
+        },
+        {
+          "group": "org.ladysnake.cardinal-components-api",
+          "module": "cardinal-components-base",
+          "version": {
+            "requires": "8.0.0-alpha.5+26.1"
+          }
+        },
+        {
+          "group": "org.ladysnake.cardinal-components-api",
+          "module": "cardinal-components-entity",
+          "version": {
+            "requires": "8.0.0-alpha.5+26.1"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.6.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "homeostatic-26.1.2-fabric-2.11.0.3.jar",
+          "url": "homeostatic-26.1.2-fabric-2.11.0.3.jar",
+          "size": 2966386,
+          "sha512": "bdb3ea79531a4a2bb459c9fd3eb1be3788d1a19014898296b99d9427c313e2582c98e4ce198f74b1df8c5c14b2a433a3b95b67249d34c4d29e9c7fb6892f1441",
+          "sha256": "b92d470458493dea0221aadbd6f24c753115cedb3911889f94aa1eb49cfc735c",
+          "sha1": "c648a07b0b020fd91996af742454299bb413ad74",
+          "md5": "bb3aa7cbb4118aee40ded3830e874552"
+        }
+      ]
+    }
+  ]
+}
