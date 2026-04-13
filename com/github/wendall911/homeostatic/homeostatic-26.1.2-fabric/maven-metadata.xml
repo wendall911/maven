@@ -3,12 +3,13 @@
   <groupId>com.github.wendall911.homeostatic</groupId>
   <artifactId>homeostatic-26.1.2-fabric</artifactId>
   <versioning>
-    <latest>2.11.0.4</latest>
-    <release>2.11.0.4</release>
+    <latest>2.11.0.5</latest>
+    <release>2.11.0.5</release>
     <versions>
       <version>2.11.0.3</version>
       <version>2.11.0.4</version>
+      <version>2.11.0.5</version>
     </versions>
-    <lastUpdated>20260413185209</lastUpdated>
+    <lastUpdated>20260413194721</lastUpdated>
   </versioning>
 </metadata>
