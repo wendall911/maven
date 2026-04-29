@@ -1,0 +1,95 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.wendall911.homeostatic",
+    "module": "homeostatic-1.21.1-common",
+    "version": "2.11.0.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "homeostatic-1.21.1-common-2.11.0.9.jar",
+          "url": "homeostatic-1.21.1-common-2.11.0.9.jar",
+          "size": 1550524,
+          "sha512": "71f7c90c1e7473bf197bbbe963411fd674b53fa9d7c92118ac5faa50d724138c85713b83394e60df024f8dd1a8aa25f59e5cdffa5ac4ac303e2e0612416f2218",
+          "sha256": "b9849ed2a43d68c63c6d0075c72382a1ad990d89b322ec05439931346d515355",
+          "sha1": "c82cdd9a9389b57e51ad129f12c9eafd6fb6d7a0",
+          "md5": "a1605d38c878366c69e6bdbb652e45a9"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.wendall911.homeostatic",
+          "name": "homeostatic-1.21.1-common",
+          "version": "2.11.0.9"
+        },
+        {
+          "group": "com.github.wendall911.homeostatic",
+          "name": "homeostatic",
+          "version": "2.11.0.9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "technology.roughness.whitenoise",
+          "module": "whitenoise-1.21.1-common",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.github.wendall911.climatesettings",
+          "module": "climatesettings-1.21.1-common",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.github.wendall911.homeostaticseasons",
+          "module": "homeostaticseasons-1.21.1-common",
+          "version": {
+            "requires": "1.1.0.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "homeostatic-1.21.1-common-2.11.0.9.jar",
+          "url": "homeostatic-1.21.1-common-2.11.0.9.jar",
+          "size": 1550524,
+          "sha512": "71f7c90c1e7473bf197bbbe963411fd674b53fa9d7c92118ac5faa50d724138c85713b83394e60df024f8dd1a8aa25f59e5cdffa5ac4ac303e2e0612416f2218",
+          "sha256": "b9849ed2a43d68c63c6d0075c72382a1ad990d89b322ec05439931346d515355",
+          "sha1": "c82cdd9a9389b57e51ad129f12c9eafd6fb6d7a0",
+          "md5": "a1605d38c878366c69e6bdbb652e45a9"
+        }
+      ]
+    }
+  ]
+}
