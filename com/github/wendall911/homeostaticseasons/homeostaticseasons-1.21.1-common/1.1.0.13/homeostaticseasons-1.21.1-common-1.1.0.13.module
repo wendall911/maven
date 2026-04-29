@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.wendall911.homeostaticseasons",
+    "module": "homeostaticseasons-1.21.1-common",
+    "version": "1.1.0.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "homeostaticseasons-1.21.1-common-1.1.0.13.jar",
+          "url": "homeostaticseasons-1.21.1-common-1.1.0.13.jar",
+          "size": 380392,
+          "sha512": "ab1d34a7c4974cc764b834ba25e94041af9f471f56477badf3f280efac2c711d2f7435ed3463a9b69dea7faf62fd3f308cab091823cfc7c04fc66b51b3f7abed",
+          "sha256": "8bb186157d894799ae402aaa02f1a17684deaa1fefb74ec9c34ec61686c1874c",
+          "sha1": "e8a5efb9e85faec531699251e7b81182416a5447",
+          "md5": "44819f9ad0603bcff892cd3d73914ffa"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.wendall911.homeostaticseasons",
+          "name": "homeostaticseasons",
+          "version": "1.1.0.13"
+        },
+        {
+          "group": "com.github.wendall911.homeostaticseasons",
+          "name": "homeostaticseasons-1.21.1-common",
+          "version": "1.1.0.13"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "technology.roughness.whitenoise",
+          "module": "whitenoise-1.21.1-common",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.github.wendall911.climatesettings",
+          "module": "climatesettings-1.21.1-common",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "homeostaticseasons-1.21.1-common-1.1.0.13.jar",
+          "url": "homeostaticseasons-1.21.1-common-1.1.0.13.jar",
+          "size": 380392,
+          "sha512": "ab1d34a7c4974cc764b834ba25e94041af9f471f56477badf3f280efac2c711d2f7435ed3463a9b69dea7faf62fd3f308cab091823cfc7c04fc66b51b3f7abed",
+          "sha256": "8bb186157d894799ae402aaa02f1a17684deaa1fefb74ec9c34ec61686c1874c",
+          "sha1": "e8a5efb9e85faec531699251e7b81182416a5447",
+          "md5": "44819f9ad0603bcff892cd3d73914ffa"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.wendall911.homeostaticseasons",
+          "name": "homeostaticseasons",
+          "version": "1.1.0.13"
+        },
+        {
+          "group": "com.github.wendall911.homeostaticseasons",
+          "name": "homeostaticseasons-1.21.1-common",
+          "version": "1.1.0.13"
+        }
+      ]
+    }
+  ]
+}
