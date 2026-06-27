@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "technology.roughness.handbook",
+    "module": "handbook-26.2-common",
+    "version": "1.3.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "handbook-26.2-common-1.3.3.jar",
+          "url": "handbook-26.2-common-1.3.3.jar",
+          "size": 626659,
+          "sha512": "18b8d5b62079141e1e455185ab6435df72d50b9e85f356c5b386832263beffead991555effd5c34c661cbc968954d4679031377abe8bb5d67656a00ab6d3f20c",
+          "sha256": "a299988fdfe2840dad08cbd0598373b6a5c1a953e9ac0bb2ff4ba32571d23d8f",
+          "sha1": "3687f14dab941f36983ddfef305f5d7a5882a745",
+          "md5": "59ac38b72a0885ebb67d57f65341c768"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook",
+          "version": "1.3.3"
+        },
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook-26.2-common",
+          "version": "1.3.3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "technology.roughness.whitenoise",
+          "module": "whitenoise-26.2-common",
+          "version": {
+            "requires": "2.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "handbook-26.2-common-1.3.3.jar",
+          "url": "handbook-26.2-common-1.3.3.jar",
+          "size": 626659,
+          "sha512": "18b8d5b62079141e1e455185ab6435df72d50b9e85f356c5b386832263beffead991555effd5c34c661cbc968954d4679031377abe8bb5d67656a00ab6d3f20c",
+          "sha256": "a299988fdfe2840dad08cbd0598373b6a5c1a953e9ac0bb2ff4ba32571d23d8f",
+          "sha1": "3687f14dab941f36983ddfef305f5d7a5882a745",
+          "md5": "59ac38b72a0885ebb67d57f65341c768"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook",
+          "version": "1.3.3"
+        },
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook-26.2-common",
+          "version": "1.3.3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "handbook-26.2-common-1.3.3-sources.jar",
+          "url": "handbook-26.2-common-1.3.3-sources.jar",
+          "size": 424001,
+          "sha512": "78405f7ca1731df6a0363c82b2ca3889ef84f945a9e859e35ceed8b3f4ed00e33e8f78d5273729cb9ea92460f05c5f4f5609f7a84b0962079a803a32197a8229",
+          "sha256": "60e339d315512209e9bb05437ef8c808b80bd4fde9986ad994d95c9d753dee01",
+          "sha1": "f7265974b909df0ab34ad7169abc45f8e30621cb",
+          "md5": "a486692e82a5c713b2c539f744682299"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook",
+          "version": "1.3.3"
+        },
+        {
+          "group": "technology.roughness.handbook",
+          "name": "handbook-26.2-common",
+          "version": "1.3.3"
+        }
+      ]
+    }
+  ]
+}
