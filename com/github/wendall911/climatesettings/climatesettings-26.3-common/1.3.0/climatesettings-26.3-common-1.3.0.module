@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.wendall911.climatesettings",
+    "module": "climatesettings-26.3-common",
+    "version": "1.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "climatesettings-26.3-common-1.3.0.jar",
+          "url": "climatesettings-26.3-common-1.3.0.jar",
+          "size": 187796,
+          "sha512": "6ff2593a44a716e1a76ac4bf254eac9049804c16af39cd2aa975f29fba743d52543c10f7c552f1dc6491860b1a18ace3be87631add9e528fda26d4b9ecf142fa",
+          "sha256": "b9ee040752deaf49ee9ea79492e35ec41eb1a2753af3706453f015c6adce32b0",
+          "sha1": "14e5cdbf80ae749864769bbcb678b4a7638a0397",
+          "md5": "4614bc9c91fb4a5ef617c2c401aeffd6"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.wendall911.climatesettings",
+          "name": "climatesettings-26.3-common",
+          "version": "1.3.0"
+        },
+        {
+          "group": "com.github.wendall911.climatesettings",
+          "name": "climatesettings",
+          "version": "1.3.0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "technology.roughness.whitenoise",
+          "module": "whitenoise-26.3-common",
+          "version": {
+            "requires": "2.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "climatesettings-26.3-common-1.3.0.jar",
+          "url": "climatesettings-26.3-common-1.3.0.jar",
+          "size": 187796,
+          "sha512": "6ff2593a44a716e1a76ac4bf254eac9049804c16af39cd2aa975f29fba743d52543c10f7c552f1dc6491860b1a18ace3be87631add9e528fda26d4b9ecf142fa",
+          "sha256": "b9ee040752deaf49ee9ea79492e35ec41eb1a2753af3706453f015c6adce32b0",
+          "sha1": "14e5cdbf80ae749864769bbcb678b4a7638a0397",
+          "md5": "4614bc9c91fb4a5ef617c2c401aeffd6"
+        }
+      ]
+    }
+  ]
+}
